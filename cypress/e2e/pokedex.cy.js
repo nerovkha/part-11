@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* global cy */
+=======
+>>>>>>> submission
 describe('Pokedex', () => {
   it('front page can be opened', () => {
     cy.visit('/')
