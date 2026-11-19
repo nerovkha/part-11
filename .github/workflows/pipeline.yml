@@ -57,4 +57,4 @@ jobs:
         if: env.FLY_API_TOKEN != ''
         run: |
           sleep 10
-          curl --fail https://fullstackopen-pokedex.fly.dev/health
+          curl --fail https://nerovkha-pokedex.fly.dev/health

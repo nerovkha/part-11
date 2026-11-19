@@ -16,4 +16,6 @@ Start by running `npm install` inside the project folder
 
 ## Links
 
+Deployed version of the pokedex: https://nerovkha-pokedex.fly.dev
+
 App repository from the previous two exercises: https://github.com/nerovkha/check-ci-cd
