@@ -1,11 +1,9 @@
-
 module.exports = {
   'env': {
     'browser': true,
     'es6': true,
     'jest/globals': true,
-    'node': true,
-    'cypress/globals': true
+    'node': true
   },
   'extends': [
     'eslint:recommended',
@@ -19,9 +17,7 @@ module.exports = {
     'sourceType': 'module'
   },
   'plugins': [
-    'react',
-    'jest',
-    'cypress'
+    'react', 'jest'
   ],
   'settings': {
     'react': {
@@ -29,6 +25,13 @@ module.exports = {
     }
   },
   'overrides': [
+    {
+      'files': ['cypress/**/*.js'],
+      'plugins': ['cypress'],
+      'env': {
+        'cypress/globals': true
+      }
+    },
     {
       'files': ['app.js'],
       'rules': {
@@ -56,12 +59,10 @@ module.exports = {
     'eqeqeq': 'error',
     'no-trailing-spaces': 'error',
     'object-curly-spacing': [
-      'error',
-      'always'
+      'error', 'always'
     ],
     'arrow-spacing': [
-      'error',
-      { 'before': true, 'after': true }
+      'error', { 'before': true, 'after': true }
     ],
     'no-console': 'error',
     'react/prop-types': 0
