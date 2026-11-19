@@ -26,6 +26,13 @@ module.exports = {
   },
   'overrides': [
     {
+      'files': ['cypress/**/*.js'],
+      'plugins': ['cypress'],
+      'env': {
+        'cypress/globals': true
+      }
+    },
+    {
       'files': ['app.js'],
       'rules': {
         'no-console': 'off'
