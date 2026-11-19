@@ -11,6 +11,6 @@ jobs:
       - name: Check the deployed service
         uses: jtalk/url-health-check-action@v4
         with:
-          url: https://fullstackopen-pokedex.fly.dev/health
+          url: https://nerovkha-pokedex.fly.dev/health
           max-attempts: 3
           retry-delay: 5s

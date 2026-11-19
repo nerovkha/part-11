@@ -1,4 +1,4 @@
-app = 'fullstackopen-pokedex'
+app = 'nerovkha-pokedex'
 primary_region = 'ams'
 
 [build]
